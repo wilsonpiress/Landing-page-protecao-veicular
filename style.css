@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    color: black;
+    background: white;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 40px;
+    box-shadow: 0 0.1rem 0.5rem rgb(147, 217, 236);
+    width: 100%;
+    background: white;
+    position: fixed;
+}
+.navigation .logo{
+    display: flex;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.logo span{
+    color: blue;
+    padding: 15px;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+.navigation ul li a{
+    color: blue;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.navigation ul li a:hover{
+    color:rgb(58, 149, 222);
+    cursor: pointer;
+}
+
+
+    
+
+
+
+
+
