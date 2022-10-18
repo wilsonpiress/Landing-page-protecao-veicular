@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     list-style: none;
     text-decoration: none;
 }
@@ -26,7 +26,7 @@ body{
     font-weight: 600;
 }
 .logo span{
-    color: blue;
+    color: rgb(13, 6, 105);
     padding: 15px;
 }
 .navigation ul{
@@ -35,7 +35,7 @@ body{
     gap: 5rem;
 }
 .navigation ul li a{
-    color: blue;
+    color: rgb(13, 6, 105);
     font-size: 17px;
     font-weight: 500;
 }
@@ -44,11 +44,66 @@ body{
     color:rgb(58, 149, 222);
     cursor: pointer;
 }
-
+.main{
+    display: block;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-text{
+    max-width: 37rem;
+}
+.home-text .text-h4{
+    padding-left: 60px;
+    color: black;
+    margin-bottom: 1rem;
+}
+.home-text .text-h1{
+    padding-left: 60px;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(13, 6, 105);
+}
+.home-text p {
+    padding-left: 60px;
+    margin-bottom: 4rem;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.home-btn{
+    padding: 15px 45px;
+    background: rgb(13, 6, 105);
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.home-img img {
+    width: 40%;
+}
+.menu .bar{
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 3px;
+    background: var(--dark);
+    margin: 5px auto;
+    transition: all 0.3s;
+}
+.menu .bar:nth-child(1),
+.menu .bar:nth-child(3){
+    background: var(--red);
+}
 
     
-
-
-
-
-
