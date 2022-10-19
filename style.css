@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); 
+
 *{
     margin: 0;
     padding: 0;
@@ -6,10 +8,12 @@
     list-style: none;
     text-decoration: none;
 }
+
 body{
     color: black;
-    background: white;
+    background: #fff;
 }
+
 .navigation{
     display: flex;
     align-items: center;
@@ -17,69 +21,70 @@ body{
     padding: 16px 40px;
     box-shadow: 0 0.1rem 0.5rem rgb(147, 217, 236);
     width: 100%;
-    background: white;
+    background: #fff;
     position: fixed;
 }
+
 .navigation .logo{
-    display: flex;
+    color: rgb(13, 6, 105);
     font-size: 1.7rem;
-    font-weight: 600;
+    font-weight: 700;
 }
+
 .logo span{
     color: rgb(13, 6, 105);
     padding: 15px;
 }
+
 .navigation ul{
     display: flex;
     align-items: center;
     gap: 5rem;
 }
+
 .navigation ul li a{
     color: rgb(13, 6, 105);
     font-size: 17px;
     font-weight: 500;
+    cursor: pointer;
+    transition: all 0.5s;
 }
 
 .navigation ul li a:hover{
-    color:rgb(58, 149, 222);
-    cursor: pointer;
+    color: #3598fc;
 }
-.main{
-    display: block;
-}
+
 .home{
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 10%;
 }
+
 .home-text{
     max-width: 37rem;
 }
+
 .home-text .text-h4{
-    padding-left: 60px;
+    font-size: 1.5rem;
     color: black;
     margin-bottom: 1rem;
 }
+
 .home-text .text-h1{
-    padding-left: 60px;
     margin-bottom: 1rem;
     font-size: 4rem;
+    line-height: 4rem;
     font-weight: bold;
     color: rgb(13, 6, 105);
 }
+
 .home-text p {
-    padding-left: 60px;
     margin-bottom: 4rem;
 }
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
+
 .home-btn{
     padding: 15px 45px;
     background: rgb(13, 6, 105);
@@ -87,11 +92,16 @@ p {
     border-radius: 10px;
     font-weight: 700;
     transition: all 0.5s;
-    cursor: pointer;
 }
+
+.home-btn:hover{
+    background: #3598fc;
+}
+
 .home-img img {
-    width: 40%;
+    width: 50%;
 }
+
 .menu .bar{
     display: block;
     width: 28px;
@@ -101,9 +111,9 @@ p {
     margin: 5px auto;
     transition: all 0.3s;
 }
+
 .menu .bar:nth-child(1),
 .menu .bar:nth-child(3){
     background: var(--red);
 }
 
-    
