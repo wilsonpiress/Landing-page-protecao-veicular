@@ -144,5 +144,47 @@ footer{
     color: #444;
 }
 
+@media(max-width: 1000px){
+    .navigation{
+        padding: 18px 2px;
+    }
 
+    .navigation .logo{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .home{
+        padding: 100px 2%;
+        flex-direction: column;
+        text-align: center;
+        overflow: hidden;
+        
+    }
+
+    .home .text-h4{
+        font-size: 15px;
+    }
+
+    .home .text-h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .home p{
+        font-size: 15px;
+    }
+
+    .navigation ul li a{
+        display: none;
+    }
+
+    .home-img img{
+        width: 60%;
+        position: absolute;
+        top: 370px;
+        right: 100px;
+    }
+    
+    }
 
