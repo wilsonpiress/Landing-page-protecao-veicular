@@ -6,4 +6,8 @@ Utilizei links de redirecionamento no HTML para o whatsapp e instagram e estiliz
 
 Link para o projeto: https://thunderous-meringue-c0cf29.netlify.app/
 
+Segue abaixo uma imagem de como ficou o projeto:
+
 ![protecao-veicular](https://user-images.githubusercontent.com/107739313/198449945-173f2c1c-5dfd-45ae-973a-131d15b2f77d.png)
+
+
